@@ -1,0 +1,39 @@
+/* Css for Web pages*/
+
+* {
+    box-sizing: border-box;
+}
+header {
+    background:#333333;
+    padding:20px;
+    margin-bottom:20px;
+    color:#eee;
+    font-size: 28px;
+}
+
+.container{
+    background: red;
+    padding:50px;
+    border-style:solid;
+    border-color: black;
+    border: 5px;
+
+
+}
+#bio-image {
+    width:100%;
+    margin: 50px;
+}
+#img-bio {
+    width:200px;
+    height:200px;
+    float:left;
+}
+
+#footer {
+    background:#6666666;
+    padding:20px;
+    margin-bottom:20px;
+    color:#eee;
+    font-size: 28px;
+}
