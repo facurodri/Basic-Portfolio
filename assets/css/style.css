@@ -2,23 +2,44 @@
 
 * {
     box-sizing: border-box;
+    margin:0 auto;
 }
 header {
-    background:#333333;
+    background:#4aaaa5;
     padding:20px;
-    margin-bottom:20px;
-    color:#eee;
-    font-size: 28px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width:100%;
+    border-bottom: 5px;
+    border-bottom-style:solid;
+    color:#777777;    
 }
-
+#navigation {
+    float:right;
+    font-size: 20px;
+    width:350;
+    text-align:center;
+}
+#myName{
+    color:#ffffff;
+    font-size: 28px;
+    margin-left:100px;
+}
 .container{
-    background: red;
+    background: #ffffff;
     padding:50px;
     border-style:solid;
     border-color: black;
     border: 5px;
-
-
+    
+}
+.container1{
+    background:#ffffff;
+    padding:55px;
+    margin:20 200;
+    border-style:solid;
+    border-color: black;
+    border: 5px;
+    
 }
 #bio-image {
     width:100%;
@@ -31,9 +52,12 @@ header {
 }
 
 #footer {
-    background:#6666666;
+    position: relative;
+    margin:0;
+    background:#666666;;
     padding:20px;
-    margin-bottom:20px;
-    color:#eee;
-    font-size: 28px;
+    width: 100%; 
+    border-top: 5px;
+    border-top-style: solid;   
+    text-align: center;
 }
