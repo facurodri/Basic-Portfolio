@@ -1,13 +1,16 @@
 /* Css for Web pages*/
+/* Margin for web layout*/
 
+/* I know i have a little bit more code than i should but it was how it i got the pages to work. Looking forward to all the feedback*/
 * {
     box-sizing: border-box;
     margin:0 auto;
 }
+/* Body Background image */
 body{
-    background-color: black;
-    background-image: url(/assets/images/swirl_pattern.png);
+     background-image: url(../images/swirl_pattern.png);
 }
+/* styles for header*/
 header {
     background:#ffffff;
     padding:0 50 82;
@@ -15,13 +18,85 @@ header {
     width:100%;
     border-bottom: 2px;
     border-bottom-style:solid;
-    color:#777777;    
+    color:#cccccc;    
 }
+/*Link styles*/
+a {
+    color:#777777;
+}
+a:hover {
+    color:#4aaaa5;
+}
+/* Paragraph font*/
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Navigation position*/
 #navigation {
     float:right;
     padding: 25 50;
     font-size: 20px;
 }
+/*font style for h2*/
+h2 {
+    color: #4aaaa5;
+    text-align: center;
+    font-size: 25;
+    border-bottom: solid;
+    border-bottom-style: double;
+}
+/*form color text*/
+form{
+    color:#777777; 
+}
+/* Box inside container for porfolio section*/
+.PortfolioSec{
+    background:#ffffff;
+    padding: 20px;
+    clear: both;
+    overflow: auto;
+}
+/*Portfolio images*/
+.Pictures {
+    float:left;
+    margin:5px;
+    height: 150px;
+    width: 195px;
+    overflow: hidden;
+    position:relative;
+}
+/* container/box for indivisual images*/
+.minibox{
+    float: left;
+    height:175px;
+    width: 200px;
+    position: relative;
+    overflow: hidden;
+}
+/* text for images*/
+.titlepic{
+    font-family:Arial, Helvetica, sans-serif;
+    background:#4aaaa5;
+    padding: 10 20;
+    width: 100%;
+    margin: 5px;
+    text-align: center;
+    position: absolute;
+    clear: both;
+    overflow: auto;    
+    bottom: 25px;
+    color: #ffffff;
+}
+/* contact container*/
+input{
+    width:100%;
+}
+textarea{   
+    margin: 0px;
+    height: 50%;
+    width: 100%;
+}
+/* Header Name*/
 #myName{
     float:left;
     color:#ffffff;
@@ -29,36 +104,29 @@ header {
     padding: 25;
     margin-left: 200px;
     background-color:#4aaaa5;
-    
 }
-#portfolio1{
-    color:#ffffff;
-    font-size: 28px;
-    margin-left:100px;
-}
-#contact1{
-    color:#ffffff;
-    font-size: 28px;
-    margin-left:100px;
-}
+/*Container for Main Content styles*/
 .container{
     background: #ffffff;
     width: 960px;
     padding:50px;
     margin-top: 50px;
     margin-bottom: 100px;
+    border: 1.5px;
+    border-color: #dddddd;
+    border-style: solid;
 }
-
+/*My picture*/
 #bio-image {
     width:100%;
-    margin: 50px;
+    margin-bottom: 25px;
 }
 #img-bio {
-    width:200px;
+    width:150px;
     height:200px;
     float:left;
+    margin-right: 30px;
 }
-
 #footer {
     position: absolute;
     margin:0;
