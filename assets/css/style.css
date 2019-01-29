@@ -4,43 +4,51 @@
     box-sizing: border-box;
     margin:0 auto;
 }
+body{
+    background-color: black;
+    background-image: url(/assets/images/swirl_pattern.png);
+}
 header {
-    background:#4aaaa5;
-    padding:20px;
+    background:#ffffff;
+    padding:0 50 82;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width:100%;
-    border-bottom: 5px;
+    border-bottom: 2px;
     border-bottom-style:solid;
     color:#777777;    
 }
 #navigation {
     float:right;
+    padding: 25 50;
     font-size: 20px;
-    width:350;
-    text-align:center;
 }
 #myName{
+    float:left;
+    color:#ffffff;
+    font-size: 28px;
+    padding: 25;
+    margin-left: 200px;
+    background-color:#4aaaa5;
+    
+}
+#portfolio1{
+    color:#ffffff;
+    font-size: 28px;
+    margin-left:100px;
+}
+#contact1{
     color:#ffffff;
     font-size: 28px;
     margin-left:100px;
 }
 .container{
     background: #ffffff;
+    width: 960px;
     padding:50px;
-    border-style:solid;
-    border-color: black;
-    border: 5px;
-    
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
-.container1{
-    background:#ffffff;
-    padding:55px;
-    margin:20 200;
-    border-style:solid;
-    border-color: black;
-    border: 5px;
-    
-}
+
 #bio-image {
     width:100%;
     margin: 50px;
@@ -52,7 +60,7 @@ header {
 }
 
 #footer {
-    position: relative;
+    position: absolute;
     margin:0;
     background:#666666;;
     padding:20px;
@@ -60,4 +68,5 @@ header {
     border-top: 5px;
     border-top-style: solid;   
     text-align: center;
+    border-color: #4aaaa5
 }
