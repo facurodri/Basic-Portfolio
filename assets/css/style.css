@@ -8,17 +8,18 @@
 }
 /* Body Background image */
 body{
-     background-image: url(../images/swirl_pattern.png);
+    background-image: url(../images/swirl_pattern.png);
 }
 /* styles for header*/
 header {
     background:#ffffff;
-    padding:0 50 82;
+    padding:0 50px 82px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     width:100%;
     border-bottom: 2px;
     border-bottom-style:solid;
     color:#cccccc;    
+    z-index: 5;
 }
 /*Link styles*/
 a {
@@ -34,14 +35,14 @@ p {
 /*Navigation position*/
 #navigation {
     float:right;
-    padding: 25 50;
+    padding: 25px 50px;
     font-size: 20px;
 }
 /*font style for h2*/
 h2 {
     color: #4aaaa5;
     text-align: center;
-    font-size: 25;
+    font-size: 25px;
     border-bottom: solid;
     border-bottom-style: double;
 }
@@ -77,7 +78,7 @@ form{
 .titlepic{
     font-family:Arial, Helvetica, sans-serif;
     background:#4aaaa5;
-    padding: 10 20;
+    padding: 10px 20px;
     width: 100%;
     margin: 5px;
     text-align: center;
@@ -101,7 +102,7 @@ textarea{
     float:left;
     color:#ffffff;
     font-size: 28px;
-    padding: 25;
+    padding: 25px;
     margin-left: 200px;
     background-color:#4aaaa5;
 }
